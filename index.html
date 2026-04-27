@@ -3,45 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>well hello!!😁✨</title> 
+    <title>Naila Abdulhakim Said</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <h1>Well Hello!!😁✨</h1>
-    <p>
-        Welcome to my website!
-         <br> I'm glad you're here. <br>  
-         <!-- the <br>is a line break tag, which creates a new line in the text. <br> -->
-          Feel free to explore and learn more about me and what I do.
-           If you have any questions or just want to say hi, don't hesitate to reach out!</p>
-    <p>My name is Naila. 💚✨</p>
-    <section id="about">
+
+    <header>
+        <h1><span class="highlight">Naila</span> Abdulhakim Said</h1>
+        <p class="tagline">Frontend Developer & Computer Science Student | Dreamer of Skies & Builder of Futures</p>
+    </header>
+
+    <!-- About Me -->
+    <section class="about">
         <h2>About Me</h2>
-        <p>I am a passionate developer with a love for creating innovative solutions. I enjoy working on projects that challenge me and allow me to grow my skills. In my free time, I like to explore new technologies and contribute to open-source projects.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Project A:</strong> A web application that helps users manage their tasks efficiently.</li>
-            <li><strong>Project B:</strong> An open-source library for data visualization.</li>
-            <li><strong>Project C:</strong> A mobile app that promotes healthy habits.</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me via email at <a href="mailto:naila@gmail.com">naila@gmail.com</a>.</p>
+        <p>My name is Naila Abdulhakim Said. I am nineteen years old and I come from Mombasa, Kenya. I come from a long line of bold women who have unfortunately forgotten their fire. This is my journey to remind them and myself who we truly are.</p>
+        
+        <p>I've always been the girl who didn't quite fit in. The daughter who was poles apart from the rest of her family. For a long time I wondered why I was so different. But when I started dreaming bigger than what was expected of me, I became the black sheep. The outcast. The one who dared to want more.</p>
+        
+        <p>Today I am a passionate frontend developer and Computer Science student. I believe in clean code, meaningful design, and building things that actually matter. But more than that, I am using technology as a tool to open doors for myself and for other girls who feel stuck like I once did.</p>
     </section>
 
-   
+    <!-- Skills -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skill-box">HTML</div>
+        <div class="skill-box">CSS</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">Responsive Design</div>
+        <div class="skill-box">Git & GitHub</div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3>Cooking Website</h3>
+            <p>A clean and beautiful website celebrating Kenyan coastal recipes and our rich Swahili food culture.</p>
+            <a href="https://github.com/NailaGr223/cooking-website" target="_blank">View Project →</a>
+        </div>
+
+        <div class="project">
+            <h3>My Story Website</h3>
+            <p>A deeply personal space where I share my journey as a young woman daring to dream beyond limits in tech, aerospace, and life.</p>
+            <a href="https://github.com/NailaGr223/my-story-website" target="_blank">View Project →</a>
+        </div>
+         <div class="project">
+            <h3>My first project</h3>
+            <p>My first project was a measure of limits. No joke yoooooo😂</p>
+            <a href="myfirstproject..html" target="_self">View Project →</a>
+         </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:nailagr223@gmail.com">nailagr223@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/NailaGr223" target="_blank">NailaGr223</a></p>
+    </section>
+
     <footer>
-    <p>&copy; 2026 Naila. All rights reserved.</p>
+        <p>&copy; 2026 Naila Abdulhakim Said</p>
     </footer>
-    
+    <script>
+    document.getElementById('contact').addEventListener('click', function() {
+        alert('Thank you for reaching out! I will get back to you as soon as possible.');
+    });
+    </script>
+
 </body>
 </html>
